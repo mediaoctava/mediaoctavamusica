@@ -1,0 +1,3 @@
+18 12 30 - 30 mins probando idea de header y cambiando lo básico
+18 12 31 - 45 mins Laburando en "Novedades" y cambiando links
+---------- 30 mins agregando secciòn de fechas, acomodando un poco los archivos sass

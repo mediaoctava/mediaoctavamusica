@@ -1,0 +1,2 @@
+-mediaqueries para la imagen del disco en Novedades
+-acomodar redes (con el otro modelo)
