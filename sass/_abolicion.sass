@@ -1,0 +1,41 @@
+#abolicion
+  background-image: url('../img/la-abolicion-de-los-rascacielos-bn.jpg')
+  background-position: center
+  +background-cover
+  img
+    border: 1px #222 solid
+    margin: 1px 15px 10px 1px
+    width: 210px
+    height: 210px
+    display: inline-block!important
+    vertical-align: top
+    float: left
+  h3
+    text-align: left
+    font-weight: bold
+  p
+    text-align: left!important
+
+  .promo-content-container
+    display: flex
+    flex-direction: row
+    align-items: center
+    @media (max-width: 767px)
+      flex-direction: column
+    img
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.3)
+      height: auto
+      @media (max-width: 767px)
+        width: 60vw
+      @media (min-width: 768px) and (max-width: 950px)
+        width: 35vw
+      @media (min-width: 951px)
+        width: 37vw
+    p
+      margin-bottom: 10px
+    blockquote
+      font-style: italic
+    
+    .promo-img-container
+      flex: 1 1 50%
+      text-align: center

@@ -200,7 +200,7 @@ header.masthead {
   width: 100%;
   text-align: center;
   color: white;
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/media-octava-2019.jpg");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -405,3 +405,63 @@ header.masthead {
 
 #contact .row i.fa {
   margin-bottom: 0.15em; }
+
+#abolicion {
+  background-image: url("../img/la-abolicion-de-los-rascacielos-bn.jpg");
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  #abolicion img {
+    border: 1px #222 solid;
+    margin: 1px 15px 10px 1px;
+    width: 210px;
+    height: 210px;
+    display: inline-block !important;
+    vertical-align: top;
+    float: left; }
+  #abolicion h3 {
+    text-align: left;
+    font-weight: bold; }
+  #abolicion p {
+    text-align: left !important; }
+  #abolicion .promo-content-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    @media (max-width: 767px) {
+      #abolicion .promo-content-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; } }
+    #abolicion .promo-content-container img {
+      -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+      height: auto; }
+      @media (max-width: 767px) {
+        #abolicion .promo-content-container img {
+          width: 60vw; } }
+      @media (min-width: 768px) and (max-width: 950px) {
+        #abolicion .promo-content-container img {
+          width: 35vw; } }
+      @media (min-width: 951px) {
+        #abolicion .promo-content-container img {
+          width: 37vw; } }
+    #abolicion .promo-content-container p {
+      margin-bottom: 10px; }
+    #abolicion .promo-content-container blockquote {
+      font-style: italic; }
+    #abolicion .promo-content-container .promo-img-container {
+      -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+      flex: 1 1 50%;
+      text-align: center; }
