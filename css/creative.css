@@ -69,6 +69,21 @@ p {
 section {
   padding: 100px 0; }
 
+section.bg-primary {
+  color: white; }
+  section.bg-primary a {
+    color: white !important; }
+  section.bg-primary strong {
+    color: white; }
+
+section.bg-gradient {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d4f0f5), to(#fff)) !important;
+    background-image-background-image: -webkit-linear-gradient(top, #d4f0f5 0, #FFF 100%) !important;
+    background-image-background-image: -o-linear-gradient(top, #d4f0f5 0, #fff 100%) !important;
+    background-image-background-image: linear-gradient(to bottom, #d4f0f5 0, #fff 100%) !important;
+    background-image-background-image: linear-gradient(to bottom, #d4f0f5 0, #fff 100%) !important;
+      background-image-background-image-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d4f0f5 ', endColorstr='#fff', GradientType=0) !important; }
+
 .section-heading {
   margin-top: 0; }
 
@@ -400,11 +415,13 @@ header.masthead {
 #novedades p {
   text-align: left !important; }
 
-#contact .social {
-  margin-top: 1em; }
-
-#contact .row i.fa {
-  margin-bottom: 0.15em; }
+#contact {
+  padding-top: 1em;
+  padding-bottom: 0.5em; }
+  #contact .social {
+    margin-top: 1em; }
+  #contact .row i.fa {
+    margin-bottom: 0.15em; }
 
 #abolicion {
   background-image: url("../img/la-abolicion-de-los-rascacielos-bn.jpg");
