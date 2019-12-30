@@ -422,6 +422,19 @@ header.masthead {
     margin-top: 1em; }
   #contact .row i.fa {
     margin-bottom: 0.15em; }
+  #contact div.social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  #contact .socialwrapper {
+    min-width: 15vh;
+    text-align: center; }
 
 #abolicion {
   background-image: url("../img/la-abolicion-de-los-rascacielos-bn.jpg");
